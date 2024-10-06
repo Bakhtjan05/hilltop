@@ -1,0 +1,67 @@
+.fourth-page {
+    width: 100%;
+    height: 1561px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 15% 579px 579px;
+    gap: 20px;
+    padding: 0px 120px 180px 120px;
+
+    .fourth-page-header {
+        grid-column: 1 / 4;
+        grid-row: 1 / 2;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        flex-direction: column;
+        margin-bottom: 24px;
+        gap: 19px;
+
+
+        h1 {
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 44px;
+            
+        }
+        span {
+            width: 258px;
+            height: 2px;
+            background-color: #ECA00D;
+        }
+    }
+
+    #first {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        
+        @include typesoftravel;
+        
+    }
+    #second {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        @include typesoftravel;
+        
+    }
+    #third {
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+        @include typesoftravel;
+    }
+    #fourth {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+        @include typesoftravel;
+    }
+    #fifth {
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+        @include typesoftravel;
+    }
+    #sixth {
+        grid-column: 3 / 4;
+        grid-row: 3 / 4;
+        @include typesoftravel;
+    }
+}

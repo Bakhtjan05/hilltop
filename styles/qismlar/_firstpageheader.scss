@@ -1,0 +1,43 @@
+header {
+    width: 80%;
+    height: 112px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 145px;
+    border-bottom: 1px solid #D0C7C7;
+
+    .left-side {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        
+        h1 {
+            font-weight: 700;
+            font-size: 46px;
+            line-height: 56px;
+            color: white;
+        }
+    }
+
+    .right-side {
+        display: flex;
+        align-items: center;
+        nav ul {
+            display: flex;
+            gap: 23px;
+            
+            li {
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 29px;
+
+                color: white;
+                list-style: none;
+                display: flex;
+                align-items: center;
+                gap: 14px;
+
+            }
+        }
+    }
+}

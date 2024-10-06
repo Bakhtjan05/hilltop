@@ -1,0 +1,29 @@
+// @import "/styles/utils/mixins";
+
+@import "./utils/mixins";
+
+@import "./qismlar/firstpageheader";
+@import "./qismlar/firstpagemain";
+@import "./qismlar/firstpagefooter";
+@import "./qismlar/second-page";
+@import "./qismlar/third-page";
+@import "./qismlar/fourth-page";
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+.first-page {
+    width: 100%;
+    height: 1080px;
+    background-image: url(../banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
